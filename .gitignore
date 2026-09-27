@@ -1,0 +1,343 @@
+# ============================================================
+# Python
+# ============================================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+*.so
+
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ============================================================
+# Virtual Environments
+# ============================================================
+
+.venv/
+venv/
+env/
+ENV/
+.env/
+.conda/
+conda-env/
+
+# ============================================================
+# Environment Variables / Secrets
+# ============================================================
+
+.env
+.env.*
+!.env.example
+
+*.pem
+*.key
+secrets/
+secrets.json
+
+# ============================================================
+# uv
+# ============================================================
+
+# Keep uv.lock committed for reproducible applications.
+# Do NOT ignore uv.lock.
+
+# ============================================================
+# Jupyter Notebook
+# ============================================================
+
+.ipynb_checkpoints/
+
+# Jupyter temporary files
+*.ipynb_checkpoints
+
+# ============================================================
+# VS Code
+# ============================================================
+
+.vscode/
+!.vscode/settings.example.json
+
+# ============================================================
+# PyCharm / JetBrains
+# ============================================================
+
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# ============================================================
+# OS Generated Files
+# ============================================================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+Thumbs.db
+Desktop.ini
+
+# ============================================================
+# Logs
+# ============================================================
+
+*.log
+logs/
+log/
+
+# ============================================================
+# Flask
+# ============================================================
+
+instance/
+.webassets-cache/
+
+# Flask debug / local files
+*.sqlite
+*.sqlite3
+*.db
+
+# ============================================================
+# Testing / Coverage
+# ============================================================
+
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.cache/
+coverage.xml
+*.cover
+*.py,cover
+
+# ============================================================
+# Type Checking
+# ============================================================
+
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+
+# ============================================================
+# Ruff / Linters
+# ============================================================
+
+.ruff_cache/
+
+# ============================================================
+# Machine Learning / Model Files
+# ============================================================
+
+# Local model weights
+models/
+model/
+checkpoints/
+weights/
+
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+
+# TensorFlow
+*.h5
+*.keras
+
+# Scikit-learn
+*.pkl
+*.pickle
+*.joblib
+
+# ============================================================
+# Hugging Face Cache
+# ============================================================
+
+.cache/
+huggingface/
+huggingface_cache/
+
+# Common Hugging Face cache locations
+.huggingface/
+transformers_cache/
+
+# ============================================================
+# Vector Databases / Local RAG Data
+# ============================================================
+
+chroma/
+chroma_db/
+.chroma/
+
+faiss_index/
+faiss/
+vectorstore/
+vector_store/
+
+# Local embeddings
+embeddings/
+embedding_cache/
+
+# ============================================================
+# Data Files
+# ============================================================
+
+# Raw / processed datasets
+data/raw/
+data/processed/
+data/interim/
+
+# Large datasets
+*.csv
+*.parquet
+*.feather
+*.arrow
+
+# If you have small CSV files that MUST be version controlled,
+# remove *.csv from above and explicitly allow them:
+# !data/example.csv
+
+# ============================================================
+# PDF / Documents
+# ============================================================
+
+# Medical PDFs / uploaded documents
+data/pdfs/
+data/documents/
+documents/
+uploads/
+
+*.pdf
+
+# If you want to commit specific documentation:
+# !docs/*.pdf
+
+# ============================================================
+# Temporary Files
+# ============================================================
+
+tmp/
+temp/
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+# ============================================================
+# Generated Files
+# ============================================================
+
+output/
+outputs/
+results/
+generated/
+artifacts/
+
+# ============================================================
+# Flask / Web Development
+# ============================================================
+
+static/uploads/
+static/generated/
+instance/
+
+# ============================================================
+# Node / Frontend (if added later)
+# ============================================================
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+.npm/
+.yarn/
+.pnpm-store/
+
+# ============================================================
+# Docker
+# ============================================================
+
+# Local Docker environment files
+docker-compose.override.yml
+
+# ============================================================
+# System / IDE
+# ============================================================
+
+.history/
+*.code-workspace
+
+# ============================================================
+# Local Development
+# ============================================================
+
+local/
+.local/
+development/
+
+# ============================================================
+# Backup Files
+# ============================================================
+
+*.orig
+*.rej
+*.old
+*.backup
+
+# ============================================================
+# Secrets / API Credentials
+# ============================================================
+
+*.secret
+*.credentials
+credentials.json
+service-account.json
+
+# ============================================================
+# Pinecone
+# ============================================================
+
+# Pinecone configuration / local credentials
+.pinecone/
+
+# ============================================================
+# LangSmith
+# ============================================================
+
+# Local LangSmith configuration
+.langsmith/
+
+# ============================================================
+# OS / Shell History
+# ============================================================
+
+.python_history
+.bash_history
+.zsh_history
